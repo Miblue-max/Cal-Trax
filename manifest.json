@@ -1,0 +1,40 @@
+{
+  "name": "Calorie & Hydration Tracker",
+  "short_name": "CalorieTracker",
+  "description": "Minimalist daily food calorie, macronutrient, and water hydration tracker with offline BMR calculation.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#090d16",
+  "theme_color": "#059669",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='40' fill='%23059669'/><text x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-size='100' fill='white'>🥗</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='110' fill='%23059669'/><text x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-size='280' fill='white'>🥗</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "fitness", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Add Food",
+      "short_name": "Add",
+      "description": "Log food by weight in grams",
+      "url": "./index.html#add"
+    },
+    {
+      "name": "Water Tracker",
+      "short_name": "Water",
+      "description": "Record daily water intake",
+      "url": "./index.html#water"
+    }
+  ]
+}
